@@ -92,10 +92,7 @@ def takeImages(Id, name):
                 writer.writerow(j for j in row)
             csvFile.close()
     else:
-        if(is_number(Id)):
-            print("Enter Alphabetical Name")
-        if(name.isalpha()):
-            print("Enter Numeric ID")
+        print('warning...')
     return Id, name
 
 
